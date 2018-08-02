@@ -16,9 +16,9 @@ the start cell to the goal cell.
 
 How to Run
 
-On a Linux system, download the files so that they’re all in one directory. Open a terminal and '<cd>'  to that directory. Type '<make>' and hit enter. Then type '<./a.out>' and hit enter.
+On a Linux system, download the files so that they’re all in one directory. Open a terminal and `<cd>`  to that directory. Type `<make>` and hit enter. Then type `<./a.out>` and hit enter.
 That’s it! You should now find a new file in the directory called “output.txt”. The file contains the path that the car should take, with each move separated by a hyphen. R=right, L=left,
 D=down, U=up, and diagonal moves are denoted with the two letters of the moves making up the diagonal. So for example, a right-up diagonal move is denoted RU.
 
 You will also have a new executable file called “a.out” in the directory, along with many object files. If you wish to run the program again without recompiling, leave these files in the
-directory and just enter '<./a.out>' again in the terminal. If you wish to get rid of these generated files, enter '<make clean>'.
+directory and just enter `<./a.out>` again in the terminal. If you wish to get rid of these generated files, enter `<make clean>`.
