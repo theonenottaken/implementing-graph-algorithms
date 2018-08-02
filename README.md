@@ -1,6 +1,6 @@
 # implementing-graph-algorithms
 
-######Summary of Project
+#### Summary of Project
 
 The program calculates the lowest-cost path from start to goal for an automated car on a given map. It does this by use of either the Iterative Depth-First Search algorithm or the A*
 algorithm. The first line in the input file is either “IDS” or “A*”, telling the program which algorithm to run.
@@ -18,7 +18,7 @@ the car, the car may not travel diagonally right-up or right-down (and it obviou
 In addition, each movement incurs a cost. Moving into a paved cell incurs a cost of 1, an unpaved cell a cost of 3, and a hill a cost of 10. The program finds the lowest-cost path from
 the start cell to the goal cell.
 
-###### How to Run
+#### How to Run
 
 On a Linux system, download the files so that they’re all in one directory. Open a terminal and `cd`  to that directory. Type `make` and hit enter. Then type `./a.out` and hit enter.
 That’s it! You should now find a new file in the directory called “output.txt”. The file contains the path that the car should take, with each move separated by a hyphen. R=right, L=left,
